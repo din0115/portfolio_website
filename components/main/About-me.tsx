@@ -11,8 +11,8 @@ const AboutMe = () => {
         <div className="flex items-center gap-6">
           <div className="relative w-20 h-20 md:w-24 md:h-24">
             <Image
-              src="/rohan.svg"
-              alt="Rohan Shrestha"
+              src="/my_image.jpeg"
+              alt="Prashant Shrestha"
               fill
               className="rounded-full object-cover border-4 border-white bg-gradient-to-r from-purple-500 to-cyan-500"
             />

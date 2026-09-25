@@ -12,13 +12,13 @@ const inter = Inter({ subsets: ["latin"] });
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://rohan-shrestha.vercel.app/#person",
-  "name": "Rohan Shrestha",
-  "url": "https://rohan-shrestha.vercel.app",
-  "jobTitle": "Flutter Developer and Full Stack Software Developer",
-  "description": "Rohan Shrestha is a software developer in Nepal specializing in Flutter mobile application development, Node.js backend development, REST APIs, and full stack product development.",
-  "image": "https://rohan-shrestha.vercel.app/my_image.jpeg",
-  "email": "mailto:shrestharohan495@gmail.com",
+  "@id": "https://prashant-shrestha.vercel.app/#person",
+  "name": "Prashant Shrestha",
+  "url": "https://prashant-shrestha.vercel.app",
+  "jobTitle": ".NET Backend Developer",
+  "description": "Prashant Shrestha is a software developer in Nepal specializing in ASP.NET, C#, .NET Framework, Web API and MS SQL Server, building ERP systems, REST APIs and reporting dashboards.",
+  "image": "https://prashant-shrestha.vercel.app/my_image.jpeg",
+  "email": "mailto:prashantshrestha027@gmail.com",
   "nationality": {
     "@type": "Country",
     "name": "Nepal"
@@ -32,18 +32,24 @@ const structuredData = {
     "name": "Nepal"
   },
   "knowsAbout": [
-    "Flutter App Development",
-    "Mobile Application Development",
-    "Node.js Backend Development",
-    "Full Stack Development",
+    ".NET Development",
+    "ASP.NET Development",
+    "C#",
+    "MS SQL Server",
+    "ERP Development",
+    "AngularJS",
+    "Next.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
     "REST API Development",
-    "Cross-Platform Mobile App Development",
-    "Mobile Application Engineering",
+    "Multi-Tenant Applications",
+    "Backend Development",
     "Software Development"
   ],
   "sameAs": [
     "https://www.linkedin.com/in/-rohan-shrestha/",
-    "https://github.com/RohanshresthaGit",
+    "https://github.com/SPrashant27",
     "https://medium.com/@shrestharohan495"
   ]
 };
@@ -51,82 +57,82 @@ const structuredData = {
 const websiteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://rohan-shrestha.vercel.app/#website",
-  "name": "Rohan Shrestha Portfolio",
-  "alternateName": "Rohan Shrestha - Flutter and Node.js Developer",
-  "url": "https://rohan-shrestha.vercel.app",
-  "description": "Portfolio of Rohan Shrestha, a Flutter developer, Node.js developer, and full stack software developer in Nepal building mobile applications and web services.",
+  "@id": "https://prashant-shrestha.vercel.app/#website",
+  "name": "Prashant Shrestha Portfolio",
+  "alternateName": "Prashant Shrestha - .NET Backend Developer",
+  "url": "https://prashant-shrestha.vercel.app",
+  "description": "Portfolio of Prashant Shrestha, a .NET backend developer in Nepal building ERP systems, REST APIs and SQL Server-backed applications with ASP.NET and C#.",
   "inLanguage": "en-US",
   "author": {
     "@type": "Person",
-    "@id": "https://rohan-shrestha.vercel.app/#person",
-    "name": "Rohan Shrestha"
+    "@id": "https://prashant-shrestha.vercel.app/#person",
+    "name": "Prashant Shrestha"
   }
 };
 
 const profilePageStructuredData = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://rohan-shrestha.vercel.app/#profile",
-  "url": "https://rohan-shrestha.vercel.app",
-  "name": "Rohan Shrestha | Official Portfolio",
-  "description": "The official portfolio of Rohan Shrestha, a Flutter developer, software developer, and full stack developer in Nepal specializing in mobile applications and Node.js.",
+  "@id": "https://prashant-shrestha.vercel.app/#profile",
+  "url": "https://prashant-shrestha.vercel.app",
+  "name": "Prashant Shrestha | Official Portfolio",
+  "description": "The official portfolio of Prashant Shrestha, a .NET backend developer in Nepal specializing in ASP.NET, C# and MS SQL Server.",
   "isPartOf": {
-    "@id": "https://rohan-shrestha.vercel.app/#website"
+    "@id": "https://prashant-shrestha.vercel.app/#website"
   },
   "mainEntity": {
-    "@id": "https://rohan-shrestha.vercel.app/#person"
+    "@id": "https://prashant-shrestha.vercel.app/#person"
   },
   "inLanguage": "en-US"
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rohan-shrestha.vercel.app"),
-  applicationName: "Rohan Shrestha Portfolio",
+  metadataBase: new URL("https://prashant-shrestha.vercel.app"),
+  applicationName: "Prashant Shrestha Portfolio",
   manifest: "/manifest.json",
-  title: "Rohan Shrestha | Flutter Developer & Software Developer in Nepal",
-  description: "Rohan Shrestha is a Flutter developer and software developer in Nepal building mobile applications, Node.js APIs, and full stack software for startups and growing teams.",
-  authors: [{ name: "Rohan Shrestha", url: "https://rohan-shrestha.vercel.app" }],
-  creator: "Rohan Shrestha",
-  publisher: "Rohan Shrestha",
+  title: "Prashant Shrestha | .NET Backend Developer in Nepal",
+  description: "Prashant Shrestha is a .NET backend developer in Nepal building ERP modules, REST APIs and reporting dashboards with ASP.NET, C# and MS SQL Server.",
+  authors: [{ name: "Prashant Shrestha", url: "https://prashant-shrestha.vercel.app" }],
+  creator: "Prashant Shrestha",
+  publisher: "Prashant Shrestha",
   keywords: [
-    "Rohan Shrestha",
-    "Flutter Developer",
-    "Flutter Developer in Nepal",
-    "Flutter App Developer",
-    "Mobile Application Developer",
-    "Mobile Application Developer in Nepal",
-    "Mobile App Developer",
-    "Node.js Developer",
-    "Node.js Developer Nepal",
-    "Full Stack Developer",
-    "Full Stack Developer in Nepal",
-    "Full Stack Software Developer",
+    "Prashant Shrestha",
+    ".NET Developer",
+    ".NET Developer in Nepal",
+    "ASP.NET Developer",
+    "C# Developer",
+    "Backend Developer in Nepal",
+    "MS SQL Server Developer",
+    "ERP Developer",
+    "Web API Developer",
+    "Backend Developer",
+    "Next.js Developer",
+    "Dynamic Technosoft",
     "REST API Developer",
     "Software Developer",
     "Software Developer in Nepal",
     "Software Developer Nepal"
   ],
   openGraph: {
-    title: "Rohan Shrestha | Flutter Developer & Software Developer in Nepal",
-    description: "Rohan Shrestha builds mobile applications, Node.js backend services, and full stack software as a Flutter developer in Nepal.",
+    title: "Prashant Shrestha | .NET Backend Developer in Nepal",
+    description: "Prashant Shrestha builds ERP systems, REST APIs and SQL Server backends as a .NET developer in Nepal.",
     type: "website",
     locale: "en_US",
-    siteName: "Rohan Shrestha Portfolio",
-    url: "https://rohan-shrestha.vercel.app",
+    siteName: "Prashant Shrestha Portfolio",
+    url: "https://prashant-shrestha.vercel.app",
     images: [
       {
         url: "/my_image.jpeg",
         width: 1200,
         height: 630,
-        alt: "Rohan Shrestha, Flutter and Node.js developer"
+        alt: "Prashant Shrestha, .NET backend developer"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rohan Shrestha | Flutter Developer & Software Developer in Nepal",
-    description: "Rohan Shrestha builds mobile applications, Node.js backend services, and full stack software as a Flutter developer in Nepal.",
+    title: "Prashant Shrestha | .NET Backend Developer in Nepal",
+    description: "Prashant Shrestha builds ERP systems, REST APIs and SQL Server backends as a .NET developer in Nepal.",
     images: ["/my_image.jpeg"]
   },
   alternates: {

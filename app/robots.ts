@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/"
     },
-    sitemap: "https://rohan-shrestha.vercel.app/sitemap.xml",
-    host: "https://rohan-shrestha.vercel.app"
+    sitemap: "https://prashant-shrestha.vercel.app/sitemap.xml",
+    host: "https://prashant-shrestha.vercel.app"
   };
 }

@@ -52,7 +52,7 @@ const Footer = () => {
 
             {/* Email Card */}
             <a
-              href="mailto:shrestharohan495@gmail.com"
+              href="mailto:prashantshrestha027@gmail.com"
               className="flex items-center gap-3 px-5 py-3 bg-gray-800 rounded-xl shadow-md hover:bg-gray-700 transition-colors"
             >
               <div className="p-3 rounded-lg bg-gradient-to-r from-purple-500/20 to-cyan-500/20 flex items-center justify-center">
@@ -67,7 +67,7 @@ const Footer = () => {
 
         {/* Links */}
         <div className="flex flex-wrap justify-center gap-8 text-center mt-6 text-gray-400">
-          {footer.links.map((link) => (
+          {footer.links.filter((l) => !(l as { hidden?: boolean }).hidden).map((link) => (
             <a key={link.name} href={link.href} className="text-sm md:text-base hover:text-white transition-colors">
               {link.name}
             </a>

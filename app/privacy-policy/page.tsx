@@ -170,11 +170,11 @@ const PrivacyPolicy = () => {
           <p className="text-gray-400 text-sm md:text-base leading-relaxed">
             {privacyPolicy.yourRights.description}{" "}
             
-             <a href="mailto:shrestharohan495@gmail.com"
+             <a href="mailto:prashantshrestha027@gmail.com"
               style={{ color: "#ba9cff" }}
               className="font-medium transition-colors hover:text-purple-300"
             >
-              shrestharohan495@gmail.com
+              prashantshrestha027@gmail.com
             </a>
             .
           </p>
@@ -203,11 +203,11 @@ const PrivacyPolicy = () => {
           <p className="text-gray-400 text-sm md:text-base leading-relaxed">
             {privacyPolicy.contact.description}{" "}
             
-             <a href="mailto:shrestharohan495@gmail.com"
+             <a href="mailto:prashantshrestha027@gmail.com"
               style={{ color: "#ba9cff" }}
               className="font-medium transition-colors hover:text-purple-300"
             >
-              shrestharohan495@gmail.com
+              prashantshrestha027@gmail.com
             </a>
             .
           </p>

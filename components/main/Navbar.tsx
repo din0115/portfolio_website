@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { usePathname } from "next/navigation";
 import navbarContent from "@/constants/navbar-content.json";
 
-const navLinks = navbarContent.navbar.links;
+const navLinks = navbarContent.navbar.links.filter((l) => !(l as { hidden?: boolean }).hidden);
 const brand = navbarContent.navbar.brand;
 
 const useMobile = () => {

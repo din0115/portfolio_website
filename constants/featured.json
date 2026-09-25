@@ -1,9 +1,92 @@
 {
-  "pageTitle": "Featured Work & Product Experience",
+  "pageTitle": "Experience, Certifications & Education",
   "pageSubtitle": "A collection of milestones, achievements, awards, certifications, community involvement, and memorable experiences that tell the story beyond my code.",
   "items": [
     {
       "id": 1,
+      "title": "Backend Developer at Next Coach",
+      "category": "Experience",
+      "date": "Dec 2024 - Feb 2025",
+      "location": "learn.nextcoach.com.np",
+      "description": "Next Coach is an online learning platform for 1-on-1 mentorship, consultations, live classes and webinars with verified industry experts. As a part-time backend developer, I built server-side features and APIs with Next.js and TypeScript, and designed the PostgreSQL data model with Prisma ORM.",
+      "images": [],
+      "tags": [
+        "Next_Coach",
+        "NextJS",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Foundational C# with Microsoft",
+      "category": "Certification",
+      "date": "Microsoft",
+      "location": "Online",
+      "description": "Microsoft's Foundational C# certification, covering C# syntax, types, control flow, methods, error handling and debugging.",
+      "images": [],
+      "tags": [
+        "CSharp",
+        "Microsoft",
+        "DotNet"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "C# Class Development",
+      "category": "Certification",
+      "date": "Certification",
+      "location": "Online",
+      "description": "Object-oriented programming in C#: classes, properties, constructors, inheritance, interfaces and encapsulation. I use these concepts every day when building ASP.NET services.",
+      "images": [],
+      "tags": [
+        "CSharp",
+        "OOP"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Web Development with HTML, CSS, JavaScript",
+      "category": "Certification",
+      "date": "Certification",
+      "location": "Online",
+      "description": "The core web technologies behind the Razor views, JavaScript components and AngularJS frontends I connect my backend APIs to.",
+      "images": [],
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "BSc. CSIT",
+      "category": "Education",
+      "date": "2019 - 2024",
+      "location": "Trinity International College, Dillibazar Height",
+      "description": "Bachelor of Science in Computer Science and Information Technology from Tribhuvan University.",
+      "images": [],
+      "tags": [
+        "Tribhuvan_University",
+        "CSIT"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Higher Secondary School",
+      "category": "Education",
+      "date": "2016 - 2018",
+      "location": "National School of Science, Lainchour",
+      "description": "Higher secondary education under the National Examination Board (NEB).",
+      "images": [],
+      "tags": [
+        "NEB",
+        "Science"
+      ]
+    },
+    {
+      "id": 7,
       "title": "Awarded As a Rising Developer",
       "category": "Awards & Recognition",
       "date": "May 2026",
@@ -13,8 +96,11 @@
         "/featured/rising-dev-1.jpeg",
         "/featured/rising-dev-2.jpeg"
       ],
-      "tags": ["Rising_Developer", "Dynamic_Technosoft", "Flutter"]
+      "tags": [
+        "Rising_Developer",
+        "Dynamic_Technosoft",
+        "Flutter"
+      ]
     }
   ]
 }
-

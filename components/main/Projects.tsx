@@ -13,18 +13,18 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Cross-Platform Mobile App Development"
-          description="Built polished Flutter applications with a focus on responsive UI, scalable architecture, and reliable delivery for Android and iOS. The work centered on clean implementation, maintainable code, and strong user experience."
+          title="ScholarshipERP - Multi-Tenant Scholarship System"
+          description="Multi-tenant ASP.NET MVC application serving 18+ municipal SEE scholarship portals across Nepal from a single shared codebase, with tenant-specific rules, dynamic routing, role-based access, approval workflows and reporting."
         />
         <ProjectCard
           src="/CardImage.png"
-          title="Node.js & REST API Integration"
-          description="Delivered backend-connected product experiences through structured API integration, thoughtful data flow, and maintainable front-end logic that supports scalable product features."
+          title="Pivotal ERP"
+          description="Scalable ASP.NET and SQL backend for inventory, purchase and sales tracking, ledger vouchers and POS printing, with OneSignal notifications, PDF/Excel reports and chart dashboards."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Full Stack Product Delivery"
-          description="Created a performance-focused digital presence that clearly communicates technical depth, product thinking, and engineering capability for recruiters, clients, and collaborators."
+          title="Next Coach - Online Mentorship Platform"
+          description="Backend for an online learning platform offering 1-on-1 mentorship, live classes and webinars, built with Next.js, TypeScript, Prisma and PostgreSQL."
         />
       </div>
     </div>

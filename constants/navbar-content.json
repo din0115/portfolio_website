@@ -1,44 +1,44 @@
 {
   "navbar": {
     "brand": {
-      "name": "Prasahnt Shrestha",
+      "name": "Prashant Shrestha",
       "imageSrc": "/my_image.jpeg",
-      "imageAlt": "Prasahnt Shrestha, Heavy backend developer",
+      "imageAlt": "Prashant Shrestha, .NET Backend Developer",
       "href": "#about-me"
     },
     "links": [
       { "name": "Home", "href": "/#", "id": "home" },
       { "name": "Skills", "href": "/#skills", "id": "skills" },
       { "name": "Experience", "href": "/#experience", "id": "experience" },
-      { "name": "Blogs", "href": "/#blog", "id": "blog" },
+      { "name": "Blogs", "href": "/#blog", "id": "blog", "hidden": true },
       { "name": "Contact", "href": "/#contact", "id": "contact" },
       { "name": "Featured", "href": "/featured", "id": "featured" }
     ]
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "name": "Prasahnt Shrestha",
+    "name": "Prashant Shrestha",
     "roles": [
-      "Flutter App Developer",
-      "Mobile Application Developer",
-      "Node.js Backend Developer",
-      "Full Stack Developer",
+      ".NET Backend Developer",
+      "ASP.NET & C# Developer",
+      "ERP Systems Developer",
+      "REST API Developer",
       "Software Developer in Nepal"
     ],
-    "description": "I am a software developer in Nepal building production-ready mobile applications and backend services for startups and growing product teams. My work spans Flutter and Dart for cross-platform experiences, Node.js for scalable APIs, and full stack delivery from architecture and API integration to deployment and maintenance, with additional experience in Kotlin, Java, Python, Bash, Git and GitHub.",
+    "description": "I'm a .NET backend developer in Kathmandu with nearly 4 years of experience, counting my internship. I build ERP modules, mobile APIs and reporting dashboards for real businesses, mainly with C#, ASP.NET (.NET Framework 4.8.1), Web API and MS SQL Server, and I integrate them with AngularJS frontends. I have also worked on Next Coach, an online mentorship platform built with Next.js, TypeScript, Prisma and PostgreSQL. I care about clean, maintainable code, fast queries, and secure, reliable software.",
     "primaryCta": "Let's Connect",
     "secondaryCta": "Download Resume",
-    "secondaryLink": "/Prashant_Shrestha.pdf",
-    "imageAlt": "Prasahnt Shrestha, Heavy backend developer developer"
+    "secondaryLink": "/Prashant_shrestha.pdf",
+    "imageAlt": "Prashant Shrestha, .NET Backend Developer"
   },
   "about": {
     "heading": "About Me",
-    "name": "Prasahnt Shrestha",
-    "role": "Flutter & Node.js Developer | Full Stack Mobile App Developer",
-    "intro": "I'm a software developer based in Nepal focused on building reliable mobile applications and backend systems that solve real product problems. My work spans Flutter and Dart for Android and iOS, Node.js for REST APIs and server-side logic, and modern app architecture for scalability, maintainability, and clean delivery.",
-    "quote": "I focus on building dependable products through solid architecture, thoughtful API design, and practical engineering decisions that support long-term growth.",
-    "quoteAuthor": "Rohan Shrestha",
-    "certifications": "My work includes cross-platform app development, API integration, state management, backend development, and production-ready mobile engineering for startups and growing product teams."
+    "name": "Prashant Shrestha",
+    "role": ".NET Backend Developer | ASP.NET, C#, MS SQL",
+    "intro": "I'm a backend developer from Kathmandu, Nepal. I specialize in ASP.NET and C# on the .NET Framework with MS SQL Server. At Dynamic Technosoft I have built backends for ERP, school management, HRM, CRM and a multi-tenant scholarship platform used by 18+ local governments, working on REST APIs, role-based access control, PDF/Excel reporting and database performance. I have also worked part-time as a backend developer at Next Coach, an online learning platform for 1-on-1 mentorship, live classes and webinars, where I used Next.js, TypeScript, Prisma and PostgreSQL.",
+    "quote": "Good backend work doesn't get noticed: the APIs are fast, the data is right, and the system keeps working as the business grows.",
+    "quoteAuthor": "Prashant Shrestha",
+    "certifications": "Certifications: Foundational C# (Microsoft), C# Class Development, and Introduction to Web Development with HTML, CSS & JavaScript. Education: BSc. CSIT, Trinity International College (Tribhuvan University), 2019 - 2024. Languages: Nepali, English, Newari and Hindi."
   },
   "skills": {
     "title": "Skills",
@@ -47,75 +47,94 @@
   "experience": {
     "heading": {
       "first": "Experience",
-      "second": "& Impact"
+      "second": "& Projects"
     },
     "tabs": [
-      { "id": "technical", "label": "💼 Technical" },
-      { "id": "community", "label": "🌐 Community" }
+      { "id": "technical", "label": "💼 Experience" },
+      { "id": "community", "label": "🚀 Projects" }
     ],
     "technicalExperience": [
       {
-        "role": "Flutter Developer",
+        "role": "Backend Developer",
         "company": "Dynamic Technosoft Pvt. Ltd.",
-        "duration": "June 2025 - Present",
+        "duration": "Feb 2024 - Present",
         "type": "Full Time",
         "logo": "/dynamic_technosoft.jpg",
         "logoColor": "#7042f8",
-        "description": "Developing production-grade Flutter applications for business products, translating requirements into scalable features, integrating REST APIs, and improving app stability and maintainability across Android and iOS.",
-        "skills": ["Flutter", "Dart", "REST API", "Git", "GitHub", "Clean Code", "State Management", "UI/UX", "Responsive Design", "Version Control", "Debugging"]
+        "description": "Based in Shankhamul, Baneshwor. I build and maintain backends for the company's ERP products (Pivotal ERP, Academic ERP, HRM, CRM and ScholarshipERP) with ASP.NET, C# and MS SQL Server. My work includes REST APIs for web and mobile apps, optimized SQL queries and stored procedures, role-based authentication, PDF/Excel reports, and OneSignal push notifications.",
+        "skills": ["C#", "ASP.NET", ".NET Framework 4.8.1", "Web API", "MS SQL Server", "AngularJS", "AG-Grid", "OneSignal", "Role-Based Access", "Git", "GitHub"]
       },
       {
-        "role": "Junior Flutter Developer",
-        "company": "Vroom Nepal",
-        "duration": "Apr 2023 - May 2025",
-        "type": "Full Time",
-        "logo": "/vroom_nepal.webp",
+        "role": "Backend Developer (Part Time)",
+        "company": "Next Coach",
+        "duration": "Dec 2024 - Feb 2025",
+        "type": "Part Time",
+        "logo": "/logo.png",
         "logoColor": "#0ea5e9",
-        "description": "Built and improved mobile application features for a ride-sharing product, contributed to API-driven workflows, and helped refine performance and user experience through maintainable app architecture.",
-        "skills": ["Flutter", "Dart", "API Integration", "UI/UX", "Debugging", "Technical Documentation", "State Management", "MVVM"]
+        "description": "Next Coach (learn.nextcoach.com.np) is an online learning platform for 1-on-1 mentorship, consultations, live classes and webinars with verified industry experts. I built server-side features and API routes with Next.js and TypeScript, and designed the PostgreSQL schema and data access with Prisma ORM for mentors, learners, sessions and classes.",
+        "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Node.js", "REST API", "Docker", "GitHub"]
+      },
+      {
+        "role": "Backend Intern",
+        "company": "Dynamic Technosoft Pvt. Ltd.",
+        "duration": "Nov 2023 - Feb 2024",
+        "type": "Internship",
+        "logo": "/dynamic_technosoft.jpg",
+        "logoColor": "#9cb2ff",
+        "description": "I started on the ASP.NET backend team, building CRUD modules, SQL queries and API endpoints for ERP products while learning the team's layered architecture and code review process.",
+        "skills": ["C#", "ASP.NET", "MS SQL", "HTML", "CSS", "Bootstrap"]
       }
-   
     ],
     "communityExperience": [
       {
-        "role": "Contributor",
-        "company": "GNOME Nepal",
-        "duration": "July 2024 - Present",
-        "type": "Open Source",
-        "logo": "/gnome.jpg",
-        "logoColor": "#4ade80",
-        "description": "Contributed to open-source and community initiatives that supported collaboration, technical learning, and developer engagement in Nepal’s growing technology ecosystem.",
-        "skills": ["Linux", "Event Management", "Open Source", "Community Engagement"]
-      },
-      {
-        "role": "College Representative (CR)",
-        "company": "Code for Change - Padmashree International College",
-        "duration": "Jan 2025 - Dec 2025",
-        "type": "Leadership",
-        "logo": "/code_for_change.jpg",
+        "role": "ScholarshipERP - Multi-Tenant Scholarship System",
+        "company": "Dynamic Technosoft",
+        "duration": "18+ municipal portals",
+        "type": "Project",
+        "logo": "/dynamic_technosoft.jpg",
         "logoColor": "#fbbf24",
-        "description": "Represented the college in technology-focused initiatives, coordinating events and helping students connect with practical software development opportunities.",
-        "skills": ["Leadership", "Coordination", "Community", "Event Management", "Networking", "Communication"]
+        "description": "I was a project developer on this multi-tenant ASP.NET MVC application, which runs SEE scholarship programs for Metropolitan, Sub-Metropolitan and Municipal governments across Nepal (Kathmandu, Lalitpur, Pokhara, Birgunj, Bharatpur, Biratnagar, Janakpur, Dhangadhi and more) from one shared codebase. I built its flavor-based architecture, tenant-specific rules, dynamic routing and RBAC, along with modules for applications, student verification, school management, quota allocation, document uploads, approval workflows and reporting.",
+        "skills": ["ASP.NET MVC", "C#", "Multi-Tenancy", "Razor", "Web API", "JavaScript", "MS SQL", "RBAC"]
       },
       {
-        "role": "Member",
-        "company": "Code for Change",
-        "duration": "Jan 2024 - Dec 2024",
-        "type": "Community",
-        "logo": "/code_for_change.jpg",
+        "role": "Pivotal ERP",
+        "company": "Dynamic Technosoft",
+        "duration": "Inventory, Accounting & POS",
+        "type": "Project",
+        "logo": "/dynamic_technosoft.jpg",
+        "logoColor": "#7042f8",
+        "description": "A scalable ASP.NET and SQL backend for inventory management, purchase and sales tracking, ledger-voucher creation and POS printing. It includes real-time notifications through OneSignal, PDF/Excel reports and chart dashboards (tables, pie, line and bar charts). I also worked on secure authentication, database query optimization and API performance.",
+        "skills": ["ASP.NET", "C#", "MS SQL", "OneSignal", "PDF/Excel Reports", "Query Optimization"]
+      },
+      {
+        "role": "Dynamic Academic ERP",
+        "company": "Dynamic Technosoft",
+        "duration": "School Management System",
+        "type": "Project",
+        "logo": "/dynamic_technosoft.jpg",
+        "logoColor": "#4ade80",
+        "description": "I designed and built the backend for a school management system with separate roles for students, teachers, parents and drivers. It covers attendance, exam management, report generation and role-based access control, built with ASP.NET, SQL and AngularJS.",
+        "skills": ["ASP.NET", "AngularJS", "MS SQL", "RBAC", "Reporting"]
+      },
+      {
+        "role": "Dynamic HRM",
+        "company": "Dynamic Technosoft",
+        "duration": "Human Resource Management",
+        "type": "Project",
+        "logo": "/dynamic_technosoft.jpg",
         "logoColor": "#38bdf8",
-        "description": "Participated in community-driven programs focused on using technology for social impact, mentorship, and collaborative learning.",
-        "skills": ["Web development", "Networking"]
+        "description": "Secure, optimized backend APIs for employee data, attendance tracking, leave management and location monitoring. I also built role-based authentication, payroll data processing and data synchronization.",
+        "skills": ["Web API", "C#", "MS SQL", "Payroll", "Mobile APIs"]
       },
       {
-        "role": "Member",
-        "company": "Flutter Kathmandu",
-        "duration": "Feb 2024 - Present",
-        "type": "Community",
-        "logo": "/flutter_white.jpg",
-        "logoColor": "#54d7eb",
-        "description": "Engaged with the Flutter community in Kathmandu through meetups and knowledge-sharing sessions that strengthened technical growth and networking.",
-        "skills": ["Flutter", "Dart", "Networking"]
+        "role": "Dynamic CRM",
+        "company": "Dynamic Technosoft",
+        "duration": "Customer Relationship Management",
+        "type": "Project",
+        "logo": "/dynamic_technosoft.jpg",
+        "logoColor": "#e59cff",
+        "description": "The backend for a CRM system covering lead management, customer interactions, sales tracking and automated notifications.",
+        "skills": ["ASP.NET", "C#", "MS SQL", "Notifications"]
       }
     ]
   },
@@ -143,16 +162,16 @@
       "first": "Let’s",
       "accent": "Connect"
     },
-    "description": "I’m open to Flutter developer, Node.js developer, and full stack mobile app opportunities for startups, product teams, and growing businesses. If you need help building a mobile app, backend service, or API-driven product, I’d be glad to connect.",
+    "description": "I'm open to .NET / ASP.NET backend developer roles and freelance work. If you need an ERP module, a REST API, a SQL Server database that needs to run faster, or a backend for your web or mobile app, get in touch.",
     "location": {
       "title": "Location",
-      "value": "Kathmandu, Nepal"
+      "value": "Shankhamul, Baneshwor, Kathmandu, Nepal"
     },
     "email": {
       "title": "Email",
-      "value": "shrestharohan495@gmail.com"
+      "value": "prashantshrestha027@gmail.com"
     },
-    "note": "I typically reply within 24 hours and welcome conversations about mobile app development, backend services, and product delivery.",
+    "note": "I usually reply within 24 hours. You can also call me on +977 9855001441.",
     "form": {
       "nameLabel": "Name",
       "namePlaceholder": "Your name",
@@ -163,26 +182,26 @@
       "submit": "Send Message",
       "submitting": "Sending...",
       "successTitle": "Thanks for reaching out",
-      "successMessage": "I’ll get back to you soon about your mobile app, backend, or product opportunity.",
+      "successMessage": "I’ll get back to you soon about your project or opportunity.",
       "error": "Failed to send message. Please try again.",
       "genericError": "An error occurred. Please try again."
     }
   },
   "footer": {
-    "name": "Rohan Shrestha",
-    "role": "Flutter & Node.js Developer | Full Stack Mobile App Developer",
+    "name": "Prashant Shrestha",
+    "role": ".NET Backend Developer | ASP.NET, C#, MS SQL",
     "location": "Kathmandu, Nepal",
-    "email": "shrestharohan495@gmail.com",
+    "email": "prashantshrestha027@gmail.com",
     "links": [
       { "name": "Home", "href": "/#" },
       { "name": "Skills", "href": "/#skills" },
       { "name": "Experience", "href": "/#experience" },
-      { "name": "Blogs", "href": "/#blog" },
+      { "name": "Blogs", "href": "/#blog", "hidden": true },
       { "name": "Contact", "href": "/#contact" },
       { "name": "Featured", "href": "/featured" },
       { "name": "Privacy Policy", "href": "/privacy-policy" }
     ],
-    "copyright": "© {year} Rohan Shrestha. All rights reserved."
+    "copyright": "© {year} Prashant Shrestha. All rights reserved."
   },
   "privacyPolicy": {
     "backLink": "Back to Home",

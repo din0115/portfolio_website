@@ -107,7 +107,7 @@ export const Skill_data = [
     {
       name: "GitHub",
       src: "/gitwhite.png",
-      url: "https://github.com/RohanshresthaGit",
+      url: "https://github.com/SPrashant27",
     },
     {
       name: "Medium",
@@ -319,90 +319,134 @@ export const Skill_data = [
   
 
   export const mainSkills = [
-      {
-      skill_name: "Flutter",
-      Image: "/flutter.svg",
-      width: 80,
-      height: 80,
-    },
-  {
-      skill_name: "Android",
-      Image: "/android.svg",
-      width: 80,
-      height: 80,
-    },
-  {
-      skill_name: "Ios",
-      Image: "/ios.svg",
-      width: 80,
-      height: 80,
-    },
-  {
-      skill_name: "bloc",
-      Image: "/bloc.webp",
-      width: 80,
-      height: 80,
-    },
-  {
-      skill_name: "Riverpod",
-      Image: "/riverpod.png",
-      width: 80,
-      height: 80,
-    },
-      {
-      skill_name: "Git",
-      Image: "/git.svg",
-      width: 50,
-      height: 50,
-    },
-   {
-      skill_name: "GitHub",
-      Image: "/gitwhite.png",
-      width: 50,
-      height: 50,
-    },
-  ]
-  
-  
-  export const secondarySkills = [
-       {
-      skill_name: "Ktor",
-      Image: "/Ktor.svg",
-      width: 55,
-      height: 55,
-    },
     {
-      skill_name: "Django",
-      Image: "/django.svg",
-      width: 55,
-      height: 55,
-    },
-    {
-      skill_name: "Fire base",
-      Image: "/Firebase.png",
-      width: 55,
-      height: 55,
-    },
-    {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
+      skill_name: "C#",
+      Image: "/csharp.svg",
       width: 70,
       height: 70,
     },
-       {
-      skill_name: "GitLab",
-      Image: "/gitlab.webp",
-      width: 50,
-      height: 50,
+    {
+      skill_name: ".NET Framework",
+      Image: "/dot-net.svg",
+      width: 70,
+      height: 70,
     },
-      {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
+    {
+      skill_name: "ASP.NET / Web API",
+      Image: "/dotnetcore.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "MS SQL Server",
+      Image: "/microsoftsqlserver.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "AngularJS",
+      Image: "/angularjs.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "JavaScript",
+      Image: "/javascript.svg",
+      width: 65,
+      height: 65,
+    },
+    {
+      skill_name: "jQuery",
+      Image: "/jquery.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Azure",
+      Image: "/azure.svg",
+      width: 65,
+      height: 65,
     },
   ]
-  
-  
-  
-  
+
+
+  export const secondarySkills = [
+    {
+      skill_name: "Html 5",
+      Image: "/html.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Css",
+      Image: "/css.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Bootstrap",
+      Image: "/bootstrap.svg",
+      width: 65,
+      height: 65,
+    },
+    {
+      skill_name: "Next.js",
+      Image: "/nextjs.svg",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "TypeScript",
+      Image: "/typescript.svg",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "Node.js",
+      Image: "/nodejs.svg",
+      width: 65,
+      height: 65,
+    },
+    {
+      skill_name: "Prisma",
+      Image: "/prisma.svg",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "PostgreSQL",
+      Image: "/postgresql.svg",
+      width: 65,
+      height: 65,
+    },
+    {
+      skill_name: "Docker",
+      Image: "/docker.svg",
+      width: 65,
+      height: 65,
+    },
+    {
+      skill_name: "Git",
+      Image: "/git.svg",
+      width: 55,
+      height: 55,
+    },
+    {
+      skill_name: "GitHub",
+      Image: "/gitwhite.png",
+      width: 55,
+      height: 55,
+    },
+    {
+      skill_name: "Visual Studio",
+      Image: "/visualstudio.svg",
+      width: 60,
+      height: 60,
+    },
+    {
+      skill_name: "Postman",
+      Image: "/postman.svg",
+      width: 60,
+      height: 60,
+    },
+  ]

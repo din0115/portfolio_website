@@ -176,8 +176,8 @@ G
                           </p>
                           <p style="margin:24px 0 0 0;font-size:15px;color:#c9bfee;">
                             Best regards,<br/>
-                            <strong style="color:#ffffff;font-size:17px;">Rohan Shrestha</strong><br/>
-                            <span style="font-size:13px;color:#7b6aaa;">Flutter Developer</span>
+                            <strong style="color:#ffffff;font-size:17px;">Prashant Shrestha</strong><br/>
+                            <span style="font-size:13px;color:#7b6aaa;">.NET Backend Developer</span>
                           </p>
 
                         </td>
@@ -186,7 +186,7 @@ G
                       <!-- Footer -->
                       <tr>
                         <td style="padding:20px 40px;border-top:1px solid #2d2556;text-align:center;">
-                          <p style="margin:0;font-size:12px;color:#4a3d7a;">You're receiving this because you submitted the contact form on Rohan's portfolio.</p>
+                          <p style="margin:0;font-size:12px;color:#4a3d7a;">You're receiving this because you submitted the contact form on Prashant's portfolio.</p>
                         </td>
                       </tr>
 
