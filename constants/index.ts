@@ -97,7 +97,7 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/instagram.svg",
-      url: "https://www.instagram.com/rohan.log_/",
+      url: "https://www.instagram.com/pacific_027/",
     },
     // {
     //   name: "Facebook",
@@ -107,12 +107,12 @@ export const Skill_data = [
     {
       name: "GitHub",
       src: "/gitwhite.png",
-      url: "https://github.com/SPrashant27",
+      url: "https://github.com/din0115",
     },
     {
       name: "Medium",
       src: "/medium.webp",
-      url: "https://medium.com/@shrestharohan495",
+      url: "https://medium.com/@prashantshrestha027",
     },
     // {
     //   name: "Discord",
@@ -120,9 +120,7 @@ export const Skill_data = [
     //   url: "https://discord.com/users/1210889565401784352",
     // },
   ];
-  
-  
-  
+    
   export const Frontend_skill = [
   {
       skill_name: "Flutter",
@@ -289,7 +287,6 @@ export const Skill_data = [
   ];
   
   
-  
   export const Other_skill = [
    {
       skill_name: "Figma",
@@ -317,7 +314,6 @@ export const Skill_data = [
     },
   ];
   
-
   export const mainSkills = [
     {
       skill_name: "C#",

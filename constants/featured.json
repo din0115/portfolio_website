@@ -25,12 +25,13 @@
       "date": "Microsoft",
       "location": "Online",
       "description": "Microsoft's Foundational C# certification, covering C# syntax, types, control flow, methods, error handling and debugging.",
-      "images": [],
+      "images": ["/featured/cert-foundational-csharp.png"],
       "tags": [
         "CSharp",
         "Microsoft",
         "DotNet"
-      ]
+      ],
+      "link": "https://www.freecodecamp.org/certification/fcc0dd8b4c2-c7a4-429d-9da3-1d21b9d792be/foundational-c-sharp-with-microsoft"
     },
     {
       "id": 3,
@@ -39,11 +40,12 @@
       "date": "Certification",
       "location": "Online",
       "description": "Object-oriented programming in C#: classes, properties, constructors, inheritance, interfaces and encapsulation. I use these concepts every day when building ASP.NET services.",
-      "images": [],
+      "images": ["/featured/cert-csharp-class.jpeg"],
       "tags": [
         "CSharp",
         "OOP"
-      ]
+      ],
+      "link": "https://www.coursera.org/account/accomplishments/verify/75TSL45GUR2H"
     },
     {
       "id": 4,
@@ -52,12 +54,13 @@
       "date": "Certification",
       "location": "Online",
       "description": "The core web technologies behind the Razor views, JavaScript components and AngularJS frontends I connect my backend APIs to.",
-      "images": [],
+      "images": ["/featured/cert-web-dev.jpeg"],
       "tags": [
         "HTML",
         "CSS",
         "JavaScript"
-      ]
+      ],
+      "link": "https://www.coursera.org/account/accomplishments/verify/U6E5QXH2D2ME"
     },
     {
       "id": 5,

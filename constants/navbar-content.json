@@ -2,7 +2,7 @@
   "navbar": {
     "brand": {
       "name": "Prashant Shrestha",
-      "imageSrc": "/my_image.jpeg",
+      "imageSrc": "/My_img_Circle.png",
       "imageAlt": "Prashant Shrestha, .NET Backend Developer",
       "href": "#about-me"
     },

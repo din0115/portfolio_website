@@ -14,6 +14,7 @@ interface FeaturedCardProps {
     description: string;
     images: string[];
     tags: string[];
+    link?: string;
   };
   reverse?: boolean;
 }
@@ -57,6 +58,17 @@ const FeaturedCard: React.FC<FeaturedCardProps> = ({ item, reverse = false }) =>
               </span>
             ))}
           </div>
+
+          {item.link && (
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="self-start rounded-full border border-purple-400/40 bg-purple-500/10 px-4 py-2 text-sm font-semibold text-purple-200 transition-colors hover:bg-purple-500/20"
+            >
+              View Certificate ↗
+            </a>
+          )}
         </div>
       </div>
     </motion.article>
